@@ -1,0 +1,29 @@
+[user]
+	name = harygithub
+	email = harygithub@gmail.com
+[merge]
+	tool = extMerge
+[core]
+	editor = vim
+[color]
+	ui = always
+[alias]
+	co = checkout
+	ci = commit
+	br = branch
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[mergetool "extMerge"]
+	cmd = extMerge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
+[mergetool]
+	trustExitCode = false
+[diff]
+	external = extDiff
+[imap]
+	folder = "[Gmail]/Drafts"
+	host   = imaps://imap.gmail.com
+	user   = zcman2005@gmail.com
+	pass   = haryjessie
+	port   = 993
+    sslverify = false
