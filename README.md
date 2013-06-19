@@ -3,7 +3,7 @@
 
 # test1
 
-```
+```perl
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -15,3 +15,5 @@ sub f2 {}
 sub f3 {}
 sub f4 {}
 ```
+
+    fix issue#1
